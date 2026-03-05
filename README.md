@@ -23,8 +23,8 @@ DB_NAME=auth_service
 PORT=8080
 GIN_MODE=debug
 
-# JWT (ОБЯЗАТЕЛЬНО изменить в продакшене!)
-JWT_SECRET=your-super-secret-key-change-in-production
+# JWT 
+JWT_SECRET=
 
 # CORS
 CORS_ALLOW_ORIGINS=http://localhost:3000,http://localhost:5173
